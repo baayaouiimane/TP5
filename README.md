@@ -22,7 +22,7 @@ Maintenant on a besoin de déployer le webservice,pour déployer ce dernier donc
 ![image](https://github.com/baayaouiimane/TP5/assets/167249908/9cdfb565-2df7-488d-bd0c-8cd1a5a24767)
 En démarrant le serveur:
 ![image](https://github.com/baayaouiimane/TP5/assets/167249908/d52d4c7c-30d0-4a06-95df-3d6fecff6c1a)
-Cette fois ci on démarrer un naviguateur web et on va demander le WSDL:
+Cette fois ci on démarre un naviguateur web et on va demander le WSDL:
 ![image](https://github.com/baayaouiimane/TP5/assets/167249908/f2f2a018-185a-42c9-a1e3-aa7aa7850ebf)
 Cette fois ci en visitant:http://localhost:9090/?wsdl on aura:
 ![image](https://github.com/baayaouiimane/TP5/assets/167249908/3ade0b5d-d18c-47a6-9702-e979d4647c14)
@@ -38,6 +38,18 @@ Donc on a envoyé la requete et on a recu la requete comme il apparait ci dessou
 En faisant un autre test on aura:
 ![image](https://github.com/baayaouiimane/TP5/assets/167249908/3fb99367-446e-4b4c-9dd0-925ebf39a1a1)
 En cliquant sur request1 qui se trouve dans getControle:
+![image](https://github.com/baayaouiimane/TP5/assets/167249908/bb1ec9ff-7942-4bc9-8916-c5d26ddf794c)
+On remarque que la date de création n'est pas bonne autrement dit elle est vide parce qu on a utilisé le format LocalDate:
+On doit apporter des modifications a la classe Compte.java:
+![image](https://github.com/baayaouiimane/TP5/assets/167249908/1983e32e-8782-4503-a90a-793e812b91db)
+![image](https://github.com/baayaouiimane/TP5/assets/167249908/2e03becf-8d1b-4b57-8a97-3e005408ff65)
+![image](https://github.com/baayaouiimane/TP5/assets/167249908/dd7539a9-3204-4090-bf95-7befaabf15cd)
+Et on doit apporter aussi des modifications a la classe BanqueService.java:
+![image](https://github.com/baayaouiimane/TP5/assets/167249908/e30ceb35-18de-4e0e-abdd-69212407857f)
+Ensuite on redémarre le serveur:
+![image](https://github.com/baayaouiimane/TP5/assets/167249908/52afb13f-5698-4056-938e-f198b5485edc)
+
+
 
 
 
