@@ -8,8 +8,9 @@ Et puis on vas voir comment tester le web service en utilisant un outil qui s'ap
 Ensuite on va créer un client java qui permet de consommer le webservice
 On commence par créer un simple projet Java:ws-soap-fsm
 Ensuite on effectue la création d'un package nommée ws et ce dernier contient une classe dont son nom est:BanqueService et Compte
-![image](https://github.com/baayaouiimane/TP5/assets/167249908/a45a31e9-faf8-4182-896a-72978701e9ea)
-![image](https://github.com/baayaouiimane/TP5/assets/167249908/25cc7da2-88f8-46f5-bd21-83e2f72ecc3d)
+Donc on commence par le contenu de la classe Compte:
+![image](https://github.com/baayaouiimane/TP5/assets/167249908/c49d1b74-a404-4ba7-bc1e-ff3b7f72ac91)
+![image](https://github.com/baayaouiimane/TP5/assets/167249908/c6addeac-5578-4499-aaf9-e8c0c049aed7)
 Et voici le contenu de BanqueService:
 ![image](https://github.com/baayaouiimane/TP5/assets/167249908/bd827a7a-cee5-4e02-a125-8ef4f1ea317f)
 Si vous remarquez la notation WebService n'appartient pas a jdk par défaut, donc pour résoudre ce probleme il faut ajouter une dépendance dans le fichier pom.xml:
