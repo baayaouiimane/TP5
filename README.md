@@ -31,7 +31,7 @@ Cette fois ci en visitant :http://localhost:9090/BnaqueWS?wsdl
 En visitant:http://localhost:9090/?xsd=1
 ![image](https://github.com/baayaouiimane/TP5/assets/167249908/605af426-a444-4b66-99e0-6927ca091ef8)
 Pour tester le webservice nous allons utiliser un outil nommée SoapUI:
-Tout d abord j'ai installé:SOAP UI Downloads.
+Tout d'abord il faut installer :SOAP UI Downloads.
 En cliquant sur request1 qui se trouve dans ConversionEuroToDH:
 Donc on a envoyé la requete et on a recu la requete comme il apparait ci dessous:
 ![image](https://github.com/baayaouiimane/TP5/assets/167249908/49d35ce4-3257-42ae-a853-dbbcc352e37e)
